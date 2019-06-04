@@ -60,6 +60,8 @@ class Song
     song
   end
 
- def song.clear
-  @@all.clear
+ def song.destroy_all
+  self.all.clear
+ end
+
  end
