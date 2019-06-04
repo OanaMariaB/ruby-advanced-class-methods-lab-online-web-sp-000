@@ -60,4 +60,6 @@ class Song
     song
   end
 
-end
+ def song.clear
+  @@all.clear
+ end
